@@ -1,14 +1,58 @@
-<!DOCTYPE html>
-<html>
-
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>ADSL Router --Dlink</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
+<script type="text/javascript" src="/html/languages/en_us/main.js"></script>
+<script type="text/javascript" src="/html/languages/en_us/error.js"></script>
+<script type="text/javascript" src="/html/js/boot.js"></script>
 <body>
-
+  <script type="text/javascript" src="main.js"></script>
+    <!-- content -->
+    <div class="Content">
+        <!-- title -->
+        <div class="title">
+            <div class="product"><span id="lang_product_main">Product Page</span>: DSL-2750U</div>
+            <div class="firmware"><span id="lang_firmware_main">Firmware Version</span>:ME_1.03</div>
+        </div>
+        <!-- logo -->
+        <div class="logo"><img src="logo.gif" alt="logo" /></div>
+        <!-- login background -->
+        <div class="login_bk">
+            <!-- login -->
+            <div class="login">
+                <!-- login title -->
+                <div class="login_title" id="lang_title">LOGIN</div>
+                <!-- tips-->
+                <p id="lang_tips">Input username and password</p>
+                <!-- username/password -->
+                <div class="div_left" id="lang_username">Username :</div>
+                <div class="div_right"> <select id="SELECT_UserName">
+                        <option> </option>
+                    </select></div>
+                <p>
+                <p>
+                <div class="div_left" id="lang_password">Password :</div>
+                <div class="div_right"> <input type="password" id="INPUT_Psd" value="" onKeyDown='if(event.keyCode==13)uipostLogin()' /></div>
+                <!-- remember me -->
+                <p>
+                <p>
+                <div><input type="checkbox" id="INPUT_Remember" /> <label for="INPUT_Remember" id="lang_login">Remember my login info. on this computer</label></div>
+                <!-- submit -->
+                <div class="div_button"><input type="button" name="uipostSubmit" id="uipostSubmit" value="Login" onClick="uipostLogin()" /></div>
+            </div>
+            <!-- login failed -->
+        </div>
+        <!-- footer -->
+        <div class="footer"><img src="broadband.gif" /></div>
+    </div>
+    <!-- copyright-->
+    <p id="copyright">Copyright © 2013-2015 D-Link Systems, Inc.</p>
+    <!-- form -->
+    <form name="uiPostForm" id="uiPostForm" method="post" action="webproc"></form>
 </body>
-
+ 
 </html>

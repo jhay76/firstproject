@@ -1,0 +1,100 @@
+body {
+            margin: 0px auto;
+            padding: 3px;
+            font: 12px Tahoma, Helvetica, Geneva, Arial, sans-serif;
+            background: #757575;
+        }
+ 
+.Content {
+            margin: 0px auto;
+            padding: 0px 1px;
+            width: 840px;
+            height: 460px;
+            background: white;
+        }
+ 
+.title {
+            padding: 5px 6px 3px;
+            height: 20px;
+            background: #404343;
+            color: white;
+        }
+ 
+.product {
+            float: left;
+        }
+ 
+.firmware {
+            float: right;
+        }
+ 
+.logo {
+            margin: 6px 0 40px 0;
+            background: #F36D23;
+        }
+ 
+.login_bk {
+            margin: 0 auto;
+            padding: 5px;
+            width: 600px;
+            height: 208px;
+            background: #F1F1F1;
+        }
+ 
+  .login {
+            height: 206px;
+            border: 1px solid #F36D23;
+            background: #DFDFDF;
+            text-align: center;
+        }
+ 
+.login_title {
+            padding: 5px 10px;
+            height: 15px;
+            font-weight: bold;
+            background: #F36D23;
+            text-align: left;
+        }
+ 
+  p#lang_tips {
+            text-align: left;
+            margin: 10px 10px 25px;
+        }
+ 
+  .div_left {
+            padding: 0px 2px 0px;
+            float: left;
+            width: 250px;
+            text-align: right;
+            font-weight: bold;
+            height: 25px
+        }
+ 
+  .div_right {
+            padding: 0px 2px 0px;
+            float: right;
+            width: 337px;
+            text-align: left;
+            font-weight: bold;
+            height: 25px
+        }
+ 
+  .do {
+            margin-top: 10px;
+        }
+ 
+  .div_button {
+            margin-top: 20px;
+        }
+ 
+  .footer {
+            margin-top: 43px;
+            background: #404343;
+        }
+ 
+  p#copyright {
+            color: #F1F1F1;
+            text-align: center;
+            font-size: 11px;
+            margin: 10px;
+        }
